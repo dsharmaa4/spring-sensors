@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: acme-fitness-package-repo
-  description: acme-fitness-package-repo
+  name: spring-sensors
+  description: spring-sensors-repo
   tags:
     - app-accelerator
     - java
@@ -10,7 +10,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=acme-fitness-package-repo'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=acme-spring-sensors'
   links:
     - url: https://docs.konghq.com/gateway/latest/kong-enterprise/dev-portal/
       title: Kong Dev
