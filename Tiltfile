@@ -21,4 +21,4 @@ k8s_custom_deploy(
 )
 allow_k8s_contexts('tap-cluster-aks')
 k8s_resource('spring-sensors', port_forwards=["8080:8080"],
-            extra_pod_selectors=[{'carto.run/workload-name': 'tanzu-java-web-app', 'app.kubernetes.io/component': 'run'}])
+            extra_pod_selectors=[{'carto.run/workload-name': 'spring-sensors', 'app.kubernetes.io/component': 'run'}])
