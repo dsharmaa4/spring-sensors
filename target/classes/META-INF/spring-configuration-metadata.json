@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "web",
+      "type": "org.tanzu.demo.config.WebProperties",
+      "sourceType": "org.tanzu.demo.config.WebProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "web.banner-text",
+      "type": "java.lang.String",
+      "sourceType": "org.tanzu.demo.config.WebProperties"
+    },
+    {
+      "name": "web.banner-text-color",
+      "type": "java.lang.String",
+      "sourceType": "org.tanzu.demo.config.WebProperties"
+    },
+    {
+      "name": "web.pressure-header",
+      "type": "java.lang.String",
+      "sourceType": "org.tanzu.demo.config.WebProperties"
+    },
+    {
+      "name": "web.temp-header",
+      "type": "java.lang.String",
+      "sourceType": "org.tanzu.demo.config.WebProperties"
+    }
+  ],
+  "hints": []
+}
